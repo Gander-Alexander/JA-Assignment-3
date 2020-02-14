@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../code/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Bounty Deluxe</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <section class="title">
+        <h1>People? Why, you need someone dead? Sure we can get a name or two for ya....</h1>
+    </section>
+
+    <div class="theCatigory">
+        <div id="box" class="box">
+            <h2>Choose a person!</h2>
+            <div class="extra">
+                <button id="jarJar" onclick="pickJarJar()">Jar Jar Binks</button>
+                <button id="AnakinSky" onclick="pickAnakin()">Anakin Skywalker</button>
+                <button id="NuteGunray" onclick="pickNute()">Nute Gunray</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------------------------------------------------------------------------------------------------- -->
+
+    <!-- This is for the text boxes that the api that is fetched will write into the html -->
+
+    <div class="textboxes">
+        <div class="textBox" id="TextBox">
+            <div class="textInBox">
+                <div>Name: <p id="name">______</p>
+                </div>
+                <br>
+                <div>Height: <p id="height">______</p>
+                </div>
+                <br>
+                <div>Mass: <p id="mass">______</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+
+    <!-- Just the footer -->
+    <footer></footer>
+    <!-- ------------------- -->
+
+    <script src="../code/app.js"></script>
+</body>
+
+</html>

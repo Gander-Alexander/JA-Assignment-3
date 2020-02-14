@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background: url('../image\/My\ Drawing.sketchpad.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(99, 32, 224, 0.747);
+}
+
+.logo {
+    cursor: pointer;
+    color: rgb(228, 222, 222);
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+a {
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover {
+    border-radius: 20px;
+    background-color: darkred;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .nav-links {
+        display: block;
+        line-height: 30px;
+    }
+
+
+
+}
+
+
+/* NAV-----------^^^^^--------------------- */
+
+/* Body --------------------------------- */
+
+
+
+
+.title {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.836);
+    background-color: rgb(46, 30, 119);
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+
+    cursor: pointer;
+    border-bottom: black solid 2px;
+    font-size: 2ch;
+}
+
+
+
+
+.box {
+    position: relative;
+    color: rgba(255, 255, 255, 0.863);
+    margin: 20px;
+    border: rgb(56, 38, 161) solid 2px;
+    width: 200px;
+    height: 29px;
+    background-color: rgba(44, 106, 160, 0.568);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+#box {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: .3s ease-out;
+}
+
+.toggle {
+    height: 12rem;
+}
+
+
+
+button {
+    background: rgb(123, 139, 27);
+    transition-duration: .2s;
+    text-align: center;
+    margin: 10px;
+    border-radius: 0% 0% 100% 100%;
+    width: 10rem;
+    height: 30px;
+}
+
+button:hover {
+    box-shadow: black 10px 10px 10px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    background: yellow
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .extra {
+        font-size: 13px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .extra {
+        font-size: 13px;
+    }
+}
+
+
+.textInBox {
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+}
+
+
+.textboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.textBox {
+    width: 400px;
+    height: 300px;
+    border: white solid 2px;
+    background-color: rgba(255, 255, 255, 0.363);
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(28, 28, 119);
+    color: white;
+}
